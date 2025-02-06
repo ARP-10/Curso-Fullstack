@@ -16,3 +16,11 @@
 - Modelos de caja y disposición
 - Estilización de textos y fondos
 - Diseño responsivo
+- 
+### Bootstrap 💼
+- Introducción a Bootstrap
+- Estructura y componentes básicos de Bootstrap
+- Sistema de rejilla (Grid system)
+- Tipografía y utilidades de Bootstrap
+- Componentes interactivos (modales, carruseles, etc.)
+- Personalización y temas
