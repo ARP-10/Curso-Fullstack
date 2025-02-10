@@ -1,22 +1,52 @@
+// Palabras clave -> modo estricto
+'use strict'
+
 // Variable
 let numero = 5
+// Para saber de que tipo es la variable
+console.log(typeof numero)
+
 // Constante
 const PI = 3.1416
+console.log(PI)
+// Es mejor usar const dado que en general no vamos a reasignar variables
 
 // TIPOS DE DATOS
 // String
-let nombre = "Alejandra"
+const nombre = "Alejandra"
 // Number
-let edad = 25
-let altura = 1.75
+const edad = 25
+const altura = 1.75
 // Boolean
-let esMayor = true
+const esMayor = true
+
+/*
+    "Error" NaN: Not a Number
+*/
+
+// CONVERSIÓN DE TIPOS
+// String a Number
+const stringNumber = "5"
+console.log(typeof stringNumber)
+console.log(typeof parseInt(stringNumber))
+console.log(typeof parseFloat(stringNumber))
+
+// Number a String
+const NumberString = 5
+console.log(typeof NumberString)
+console.log(typeof NumberString.toString())
+
+// Comprobar si una varable es igual a otra
+const var1 = 5
+const var2 = "5"
+console.log(var1 == var2) // true
+console.log(var1 === var2) // false, aquí compara tambien el tipo de dato 
 
 // OPERADORES ARITMÉTICOS
 console.log("Operadores aritméticos")
-let num1 = 5
-let num2 = 8
-
+const num1 = number(5) // Asignamos el tipo number a la variable
+const num2 = +8 // De esta forma también se puede asignar number a la variable
+    
 console.log("Números a utilizar: " + num1 + " y " + num2)
 
 console.log("Suma:") 
@@ -49,8 +79,8 @@ console.log("\n")
 
 // OPERADORES LÓGICOS
 console.log("Operadores lógicos")
-let a = 5
-let b = 10
+const a = +5
+const b = +10
 
 console.log("a AND b (a > 0 && b > 0): " + (a > 0 && b > 0)) // true
 console.log("a OR b (a > 0 || b < 0): " + (a > 0 || b < 0)) // true
@@ -59,7 +89,7 @@ console.log("\n")
 
 // CONDICIONALES
 console.log("Condiciones")
-let edadUsuario = 25
+const edadUsuario = +25
 
 console.log("If")
 if(edadUsuario >= 18){
@@ -74,7 +104,7 @@ if(edadUsuario >= 18){
 }
 
 console.log("If-else if-else")
-let nota = 7
+let nota = +7
 if(nota >= 9){
     console.log("Sobresaliente")
 } else if (nota >= 7){
@@ -91,7 +121,7 @@ console.log("\n")
 console.log("Bucles")
 console.log("While")
 
-let cuentaAtras = 10
+let cuentaAtras = +10
 while(cuentaAtras > 0){
     console.log(cuentaAtras)
     cuentaAtras--
@@ -108,7 +138,7 @@ for(let i = 0; i < 10; i++){
 }
 
 console.log("Switch")
-let dia = "Martes"
+const dia = "Martes"
 switch (dia) {
     case "Lunes":
         console.log("Hoy es Lunes");
@@ -154,6 +184,12 @@ function saludarNombre(nombre){
     console.log("Hola " + nombre + "!")
 }
 
+// Función anónima -> IIFE
+// El "nombre" de la función es el contenido de la función
+(function() {
+    console.log("Hola Mundo!")
+}) ()
+
 // Función expresión
 const sum = function (a, b) {
     return a + b
@@ -166,9 +202,17 @@ const saludarFlecha = nombre => {
 
 saludarFlecha("Alejandra")
 
+const mutiplicar = (a, b) => a * b
+
 // Función con retorno
 function sumar(a, b){
     return a + b
+}
+
+// Función con callback
+function saludo(nombre, callback) {
+    console.log(`Hola, ${nombre}`);
+    callback();
 }
 
 console.log("\n")
@@ -177,9 +221,23 @@ console.log("\n")
 console.log("Arrays")
 
 // Declarar un array:
+// Array vacío forma 1
+const arrayVacio = Array(3)
+console.log(arrayVacio)
+// Array vacío forma 2
+const arrayVacio2 = []  
+console.log(arrayVacio2)
+
 const frutas = ["Manzana", "Pera", "Plátano", "Fresa", "Naranja"]
 console.log(frutas)
 console.log(frutas[2])
+
+// Array clave-valor
+const persona = {}
+persona["Alejandra"] = 25
+persona["Juan"] = 30
+
+console.log(persona)
 
 // Modificar un elemento
 frutas[2] = "Uva"
@@ -216,6 +274,13 @@ while(i < frutas.length){
     i++
 }
 
+// For normal, es mejor usar el for of
+for (let i=0;  i< frutasTotales.length; i++) {
+    console.log(frutasTotales[i])
+    
+}
+
+// For of
 for (let frutillas of frutasTotales) {
     console.log(frutillas)
 }
@@ -243,3 +308,60 @@ console.log(frutas.findIndex(fruta => fruta === "Naranja"))
 let arrayNumeros = [5, 3, 8, 1, 9, 2, 7, 4, 6]
 arrayNumeros.sort()
 console.log(arrayNumeros)
+
+// OBJETOS
+console.log("Objetos")
+
+let objeto = Object()
+objeto.nombre = "Alejandra"
+objeto.edad = 25
+console.log(objeto)
+
+// Promesa
+/*
+    Una promesa es un objeto que representa el eventual resultado de una operación asincrónica. Puede estar en uno de tres estados:
+
+    Pendiente (Pending): Estado inicial, ni cumplida ni rechazada.
+
+    Cumplida (Fulfilled): La operación se completó con éxito.
+
+    Rechazada (Rejected): La operación falló.
+*/
+
+let miPromesa = new Promise((resolve, reject) => {
+    let exito = true;
+
+    if (exito) {
+        resolve('¡Operación exitosa!');
+    } else {
+        reject('Hubo un error.');
+    }
+});
+
+miPromesa
+    .then((mensaje) => {
+        console.log(mensaje); // '¡Operación exitosa!'
+    })
+    .catch((error) => {
+        console.log(error); // 'Hubo un error.'
+    });
+
+
+// Ejemplo de promesa usando Async/Await
+// Función que retorna una promesa que se resuelve después de 1 segundo
+function esperaUnSegundo() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve('¡Listo!');
+        }, 1000);
+    });
+}
+
+// Función asincrónica que usa await para esperar la resolución de la promesa
+async function ejemploBasico() {
+    console.log('Esperando...');
+    const mensaje = await esperaUnSegundo();
+    console.log(mensaje); // Imprime '¡Listo!' después de 1 segundo
+}
+
+ejemploBasico();
