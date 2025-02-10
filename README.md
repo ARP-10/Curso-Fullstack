@@ -17,12 +17,13 @@ Este curso proporciona un recorrido completo por las habilidades esenciales que 
 - Estilización de textos y fondos
 - Diseño responsivo
 
-### Bootstrap 📱
+### Bootstrap 💼
 - Introducción a Bootstrap
-- Configuración del entorno
-- Sistema de rejilla
-- Componentes y utilidades
-- Personalización
+- Estructura y componentes básicos de Bootstrap
+- Sistema de rejilla (Grid system)
+- Tipografía y utilidades de Bootstrap
+- Componentes interactivos (modales, carruseles, etc.)
+- Personalización y temas
 
 ### JavaScript 🚀
 - Fundamentos de JavaScript
