@@ -4,6 +4,19 @@ Este curso proporciona un recorrido completo por las habilidades esenciales que 
 
 ## Contenido Actual 📚
 
+### Frontend
+- [HTML 🌐](#html-)
+- [CSS 🎨](#css-)
+- [Bootstrap 💼](#bootstrap-)
+- [JavaScript 🚀](#javascript-)
+- [TypeScript 🚀](#typescript-)
+- [React ⚛️](#react-)
+
+### Backend
+- Próximamente
+
+## Frontend
+
 ### HTML 🌐
 - Fundamentos de HTML
 - Estructura básica de un documento HTML
@@ -55,4 +68,37 @@ Este curso proporciona un recorrido completo por las habilidades esenciales que 
 - Módulos
   - Importación y exportación de módulos
 - Generics (Genéricos)
-  - Funciones y clases 
+  - Funciones y clases
+
+### React ⚛️
+- Fundamentos de React
+  - Crear una aplicación con Create React App
+  - Componentes (funcionales y de clase)
+  - JSX (JavaScript XML)
+- Estado y Ciclo de Vida
+  - Hooks (`useState`, `useEffect`, etc.)
+  - Manejo de eventos
+- Renderizado Condicional
+  - Operadores lógicos y ternarios
+  - Renderizado basado en estado
+- Listas y Llaves
+  - Renderizado de listas
+  - Uso de llaves (`key`)
+- Formularios
+  - Manejo de entradas de usuario
+  - Validación de formularios
+- Comunicación entre Componentes
+  - Props
+  - Lifting State Up
+- Context API
+  - Creación y uso de Contextos
+- React Router
+  - Rutas y navegación
+- Manejo de Estados Globales
+  - Introducción a Redux y Context API avanzada
+- Despliegue
+  - Despliegue de aplicaciones React a servicios como Netlify o Vercel
+
+## Backend
+
+- Próximamente
