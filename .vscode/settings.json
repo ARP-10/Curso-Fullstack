@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Frontend/Bootstrap/index.html"
+    "livePreview.defaultPreviewPath": "/Frontend/Bootstrap/index.html",
+    "git.ignoreLimitWarning": true
 }

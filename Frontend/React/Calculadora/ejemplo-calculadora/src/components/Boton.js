@@ -1,19 +1,17 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import '../styles/Boton.css';
+import { Button } from 'react-bootstrap';
 
-function Boton({ children, manejarClic }) {
-
-  const esOperador = valor => {
-    return isNaN(valor) && (valor !== '.') && (valor !== '=');
-  };
-
-  return (
-    <div
-      className={`boton-contenedor ${esOperador(children) ? 'operador' : ''}`.trimEnd()}
-      onClick={() => manejarClic(children)}>
-      {children}
-    </div>
-  );
-}
+function Boton({ variant, children, onClick, className, style }) {
+    return(
+        <Button
+            variant={variant}
+            onClick={onClick}
+            className={className}
+            style={style}>
+            { children }
+        </Button>
+    );
+};
 
 export default Boton;
