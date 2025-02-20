@@ -1,0 +1,30 @@
+/* Noticias.css */
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .noticias-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .noticia {
+    flex: 1 1 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .imagen {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Media query para pantallas más grandes */
+  @media (min-width: 768px) {
+    .noticia {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  

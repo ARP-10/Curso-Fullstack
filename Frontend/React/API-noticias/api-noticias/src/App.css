@@ -1,3 +1,53 @@
+:root {
+  --background-color: #FEEBDA;
+  --text-color: #B4327F;
+  --hover-color: #7A2048;
+
+  /* Sobrescribiendo variables de Bootstrap */
+  --bs-body-bg: var(--background-color);
+  --bs-body-color: var(--text-color);
+  --bs-primary: var(--text-color);  /* Usando el color de texto como color principal */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--text-color); /* Fondo del navbar de color carne */
+  box-shadow: 0 0 30px rgba(180, 50, 127, 0.5); /* Borde difuminado */
+}
+
+.nav-link {
+  color: var(--background-color) !important; /* Texto de los enlaces de color rosa */
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--hover-color) !important;
+}
+
+.nav-link.active {
+  color: var(--hover-color) !important;
+}
+
+h1, h2 {
+  color: var(--text-color);
+}
+
+.imagen {
+  border: 2px solid var(--text-color);  /* Añadir borde a las imágenes con el color de texto */
+}
+
+/* Media query para disposición en columnas en tamaños pequeños */
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .App {
   text-align: center;
 }

@@ -2,54 +2,69 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import TituloSeccion from './components/TituloSeccion';
 import './styles/TituloSeccion.css';
+import Noticias from './components/Noticias';
+import Titulo from './assets/Titulo.jpg';
 
 function App() {
   return (
     <div className="App">
-      <h1>Noticias web</h1>
+      <img src={Titulo} alt='Noticias 24/7' style={{ width: '300px', height: 'auto' }} />
       {/* NavBar */}
-      <nav className="navbar navbar-expand bg-body-tertiary">
-        <div className="container-fluid">
-          <div className="navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              {/* TODO: Poner los links correctos */}
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Tecnología</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Salud</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Entretenimiento</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Ciencia</a>
-              </li>
-            </ul>
-          </div>
+      <nav className="navbar navbar-light">
+        <div className="container-fluid justify-content-center">
+          <ul className="navbar-nav flex-row flex-wrap justify-content-center">
+            <li className="nav-item mx-2">
+              <a className="nav-link active fw-bold" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link fw-bold" href="#tecnologia">Tecnología</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link fw-bold" href="#salud">Salud</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link fw-bold" href="#entretenimiento">Entretenimiento</a>
+            </li>
+            <li className="nav-item mx-2">
+              <a className="nav-link fw-bold" href="#ciencia">Ciencia</a>
+            </li>
+          </ul>
         </div>
       </nav>
 
       {/* Sección noticias */}
-      <div>
-        <TituloSeccion texto='Tecnología'></TituloSeccion>
+      <div id="inicio" className='mt-3'>
+        <h2>Inicio</h2>
+        <p>Bienvenido a la página de noticias.</p>
       </div>
 
-      <div>
-        <TituloSeccion texto='Salud'></TituloSeccion>
+      <div id="tecnologia">
+        <TituloSeccion texto="Tecnología" />
+        <div>
+          <Noticias category="technology" />
+        </div>
       </div>
 
-      <div>
-        <TituloSeccion texto='Entretenimiento'></TituloSeccion>
+      <div id="salud">
+        <TituloSeccion texto="Salud" />
+        <div>
+          <Noticias category="health" />
+        </div>
       </div>
 
-      <div>
-        <TituloSeccion texto='Ciencia'></TituloSeccion>
+      <div id="entretenimiento">
+        <TituloSeccion texto="Entretenimiento" />
+        <div>
+          <Noticias category="entertainment" />
+        </div>
       </div>
 
+      <div id="ciencia">
+        <TituloSeccion texto="Ciencia" />
+        <div>
+          <Noticias category="science" />
+        </div>
+      </div>
     </div>
   );
 }

@@ -7,8 +7,8 @@
   
 .decoracion-linea {
     flex-grow: 1;
-    height: 1px;
-    background-color: #000; /* Cambia el color según tus necesidades */
+    height: 2px;
+    background-color: #B4327F; /* Cambia el color según tus necesidades */
     margin: 0 10px;
 }
   
