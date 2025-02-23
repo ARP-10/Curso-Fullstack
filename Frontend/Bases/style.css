@@ -1,0 +1,306 @@
+:root {
+    --primary-color: #B83556; /* Rojo oscuro */
+    --secondary-color: #dc97a5; /* Rosa claro */
+    --font-color: #55768c; /* Azul grisáceo */
+    --background-color: #faded2; /* Beige claro */
+    --nav-background: #845747; /* Marrón */
+    --header-background: #B83556; /* Rojo oscuro */
+    --footer-background: #845747; /* Marrón */
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-background);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hacer que los elementos de la lista se alineen horizontalmente */
+    justify-content: center; /* Centrar el menú de navegación horizontalmente */
+    background-color: var(--nav-background); /* Color de fondo del menú */
+}
+
+#main-nav ul li {
+    position: relative; /* Necesario para el menú desplegable */
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+#main-nav ul li a {
+    color: white; /* Color del texto del menú */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    padding: 20px 10px; /* Aumentar el espacio vertical alrededor del texto del menú */
+    display: block;
+}
+
+#main-nav ul li a:hover {
+    background-color: var(--secondary-color); /* Color de fondo al pasar el ratón */
+    border-radius: 5px; /* Esquinas redondeadas en los enlaces al pasar el ratón */
+}
+
+#main-nav ul li .dropdown-content {
+    display: none; /* Ocultar el contenido del menú desplegable por defecto */
+    position: absolute;
+    background-color: var(--nav-background); /* Color de fondo del menú desplegable */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#main-nav ul li .dropdown-content a {
+    color: white; /* Color del texto del menú desplegable */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#main-nav ul li .dropdown-content a:hover {
+    background-color: var(--secondary-color); /* Color de fondo al pasar el ratón */
+}
+
+#main-nav ul li:hover .dropdown-content {
+    display: block; /* Mostrar el contenido del menú desplegable al pasar el ratón */
+}
+
+main {
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
+article#articulo {
+    margin-bottom: 2rem;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo de las imágenes */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    flex: 1 1 auto; /* Permitir que las imágenes ocupen el ancho disponible */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Combinar bordes de celdas adyacentes */
+    margin-bottom: 2rem;
+    border-radius: 10px; /* Bordes redondeados de la tabla */
+    overflow: hidden; /* Asegurar que el contenido no se salga de los bordes redondeados */
+}
+
+table th, table td {
+    border: 1px solid #ddd; /* Bordes de las celdas */
+    padding: 8px; /* Espacio dentro de las celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+table th {
+    background-color: var(--primary-color); /* Color de fondo de los encabezados */
+    color: white; /* Color del texto de los encabezados */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo de las filas pares */
+}
+
+table tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón por las filas */
+}
+section#formulario form input[type="submit"] {
+    background-color: var(--primary-color); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 0.75rem; /* Espacio dentro del botón */
+    font-size: 1rem; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición para el cambio de color */
+}
+
+section#formulario form input[type="submit"]:hover {
+    background-color: var(--secondary-color); /* Color de fondo al pasar el ratón */
+}
+section#formulario form {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espacio entre los campos del formulario */
+}
+
+section#formulario form label {
+    font-weight: bold;
+}
+
+section#formulario form input[type="text"],
+section#formulario form input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#cta {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+#cta h2 {
+    margin-top: 0;
+}
+
+#cta p {
+    margin: 1rem 0;
+}
+
+#cta-button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#cta-button:hover {
+    background-color: var(--primary-color);
+}
+
+#mapa {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#mapa iframe {
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+}
+
+footer {
+    background-color: var(--footer-background);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#redes-sociales {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center; /* Centrar los iconos */
+    gap: 1rem; /* Espacio entre los iconos */
+}
+
+#redes-sociales li {
+    display: inline;
+}
+
+#redes-sociales li a {
+    color: white; /* Color de los iconos */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    transition: color 0.3s; /* Transición para el cambio de color */
+}
+
+#redes-sociales li a:hover {
+    color: var(--primary-color); /* Color al pasar el ratón */
+}
+
+#menu {
+    padding: 2rem;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+#menu h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#menu h3 {
+    margin-top: 2rem;
+    color: var(--secondary-color);
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query para pantallas más grandes */
+@media (min-width: 600px) {
+    .galeria {
+        flex-direction: row; /* Mostrar imágenes en fila */
+    }
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 599px) {
+    .galeria {
+        flex-direction: column; /* Mostrar imágenes en columna */
+    }
+}
+
+/* Media Queries para pantallas estrechas */
+@media (max-width: 600px) {
+    #main-nav ul {
+        flex-direction: column; /* Cambiar la dirección del menú a columna */
+        align-items: center; /* Centrar los elementos del menú */
+    }
+
+    #main-nav ul li {
+        margin: 10px 0; /* Espacio entre los elementos del menú en columna */
+    }
+
+    #main-nav ul li .dropdown-content {
+        position: static; /* Posicionar el menú desplegable de forma estática */
+        box-shadow: none; /* Eliminar la sombra del menú desplegable */
+        width: 100%; /* Hacer que el menú desplegable ocupe todo el ancho */
+    }
+
+    #main-nav ul li .dropdown-content a {
+        padding: 10px; /* Ajustar el padding de los enlaces del menú desplegable */
+    }
+}

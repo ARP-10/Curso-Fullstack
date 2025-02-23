@@ -1,0 +1,331 @@
+[
+    {
+        "id": 1,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Cobre",
+        "danio": 8
+    },
+    {
+        "id": 2,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Estaño",
+        "danio": 10
+    },
+    {
+        "id": 3,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Hierro",
+        "danio": 12
+    },
+    {
+        "id": 4,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Plomo",
+        "danio": 14
+    },
+    {
+        "id": 5,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Plata",
+        "danio": 16
+    },
+    {
+        "id": 6,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Tungsteno",
+        "danio": 18
+    },
+    {
+        "id": 7,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Oro",
+        "danio": 20
+    },
+    {
+        "id": 8,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Platino",
+        "danio": 22
+    },
+    {
+        "id": 9,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada de Pesadilla",
+        "danio": 24
+    },
+    {
+        "id": 10,
+        "clase": "Guerrero",
+        "tipo": "Espada Larga",
+        "nombre": "Espada del Destructor",
+        "danio": 26
+    },
+    {
+        "id": 11,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Madera",
+        "danio": 8
+    },
+    {
+        "id": 12,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Hierro",
+        "danio": 10
+    },
+    {
+        "id": 13,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Plomo",
+        "danio": 12
+    },
+    {
+        "id": 14,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Plata",
+        "danio": 14
+    },
+    {
+        "id": 15,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Tungsteno",
+        "danio": 16
+    },
+    {
+        "id": 16,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Oro",
+        "danio": 18
+    },
+    {
+        "id": 17,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Platino",
+        "danio": 20
+    },
+    {
+        "id": 18,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán de Pesadilla",
+        "danio": 22
+    },
+    {
+        "id": 19,
+        "clase": "Guardián",
+        "tipo": "Bumerang",
+        "nombre": "Bumerán del Destructor",
+        "danio": 24
+    },
+    {
+        "id": 20,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Bastón de Flinx",
+        "danio": 12
+    },
+    {
+        "id": 21,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Bastón de Flinch",
+        "danio": 7
+    },
+    {
+        "id": 22,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Flor de Abigail",
+        "danio": 6
+    },
+    {
+        "id": 23,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Bastón de Slime",
+        "danio": 18
+    },
+    {
+        "id": 24,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Bastón de Avispa",
+        "danio": 9
+    },
+    {
+        "id": 25,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Bastón de Imp",
+        "danio": 17
+    },
+    {
+        "id": 26,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Espina de Casquido",
+        "danio": 12
+    },
+    {
+        "id": 27,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Báculo de Rana Vampiro",
+        "danio": 11
+    },
+    {
+        "id": 28,
+        "clase": "Invocador",
+        "tipo": "Arma Invocadora",
+        "nombre": "Golpe Espinal",
+        "danio": 18
+    },
+    {
+        "id": 29,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Madera",
+        "danio": 6
+    },
+    {
+        "id": 30,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Hierro",
+        "danio": 8
+    },
+    {
+        "id": 31,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Plomo",
+        "danio": 10
+    },
+    {
+        "id": 32,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Plata",
+        "danio": 12
+    },
+    {
+        "id": 33,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Tungsteno",
+        "danio": 14
+    },
+    {
+        "id": 34,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Oro",
+        "danio": 16
+    },
+    {
+        "id": 35,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Platino",
+        "danio": 18
+    },
+    {
+        "id": 36,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco de Pesadilla",
+        "danio": 20
+    },
+    {
+        "id": 37,
+        "clase": "Guardián",
+        "tipo": "Arco",
+        "nombre": "Arco del Destructor",
+        "danio": 22
+    },
+    {
+        "id": 38,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Espejo Mágico",
+        "danio": 0
+    },
+    {
+        "id": 39,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Espada Encantada",
+        "danio": 23
+    },
+    {
+        "id": 40,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Arco Demoníaco",
+        "danio": 12
+    },
+    {
+        "id": 41,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Rayo de Agua",
+        "danio": 10
+    },
+    {
+        "id": 42,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Bastón de Fuego",
+        "danio": 15
+    },
+    {
+        "id": 43,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Lanza de Hielo",
+        "danio": 13
+    },
+    {
+        "id": 44,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Rayo de Relámpago",
+        "danio": 14
+    },
+    {
+        "id": 45,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Flecha Llameante",
+        "danio": 11
+    },
+    {
+        "id": 46,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Ducha Dorada",
+        "danio": 12
+    },
+    {
+        "id": 47,
+        "clase": "Mago",
+        "tipo": "Arma Mágica",
+        "nombre": "Bola de Cristal",
+        "danio": 0
+    }
+]

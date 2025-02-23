@@ -1,0 +1,20 @@
+.decoracion-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.decoracion-linea {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #B4327F; /* Cambia el color según tus necesidades */
+    margin: 0 10px;
+}
+  
+.decoracion-texto {
+    white-space: nowrap;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}

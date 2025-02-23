@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.secciones {
+  text-align: left;
+}
+
+.secciones>h1 {
+  text-align: center;
+}

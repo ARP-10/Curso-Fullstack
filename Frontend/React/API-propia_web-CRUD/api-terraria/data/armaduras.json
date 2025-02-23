@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "nombre": "Armadura de madera",
+        "defensa": 3,
+        "bonificacion": "+30% velocidad de excavación",
+        "crafteo": "75 de madera"
+    },
+    {
+        "id": 2,
+        "nombre": "Armadura de cobre",
+        "defensa": 6,
+        "bonificacion": "+2 de defensa",
+        "crafteo": "60 lingotes de Cobre"
+    },
+    {
+        "id": 3,
+        "nombre": "Armadura de calabaza",
+        "defensa": 7,
+        "bonificacion": "+10% de daño",
+        "crafteo":"75 calabazas"
+    }
+    ,
+    {
+        "id": 4,
+        "nombre": "Armadura de Tsungsteno",
+        "defensa": 15,
+        "bonificacion": "+3 de defensa",
+        "crafteo": "75 lingotes de Tsungsteno"
+    }
+    ,
+    {
+        "id": 5,
+        "nombre": "Armadura Ninja",
+        "defensa": 9,
+        "bonificacion": "+15% de daño en armas arrojadizas",
+        "crafteo": "Recompensa por derrotar al Rey Slime"
+    }
+    ,
+    {
+        "id": 6,
+        "nombre": "Armadura de Abeja",
+        "defensa": 13,
+        "bonificacion": "+10% de daño de los esbirros",
+        "crafteo": "30 de cera de abeja"
+    }
+    ,
+    {
+        "id": 7,
+        "nombre": "Armadura antigua de Cobalto",
+        "defensa": 17,
+        "bonificacion": "+80 de maná",
+        "crafteo": "Recompensa rara tras derrotar al Devorador de Hombres"
+    }
+    ,
+    {
+        "id": 8,
+        "nombre": "Armadura de las sombras",
+        "defensa": 19,
+        "bonificacion": "+21% de velocidad de ataque",
+        "crafteo": "60 lingotes endemoniados y 45 escamas de las sombras"
+    }
+    ,
+    {
+        "id": 9,
+        "nombre": "Armadura carmesí",
+        "defensa": 19,
+        "bonificacion": "Gran incremento en la regeneración de vida",
+        "crafteo": "60 lingotes carmesí y 45 muestras de tejido"
+    }
+    ,
+    {
+        "id": 10,
+        "nombre": "Armadura fundida",
+        "defensa": 25,
+        "bonificacion": "+17% de daño en el cuerpo a cuerpo",
+        "crafteo":"45 lingotes de piedra infernal"
+    }
+    ,
+    {
+        "id": 11,
+        "nombre": "Armadura de Cobalto",
+        "defensa": 26,
+        "bonificacion": "-14% de coste de maná",
+        "crafteo": "45 lingotes de cobalto"
+    }
+    ,
+    {
+        "id": 12,
+        "nombre": "Armadura de Mithril",
+        "defensa": 37,
+        "bonificacion": "+10% de probabilidad de araque crítico cuerpo a cuerpo",
+        "crafteo": "45 lingotes de mithril"
+    }
+    ,
+    {
+        "id": 13,
+        "nombre": "Armadura de Oricalco",
+        "defensa": 42,
+        "bonificacion": "Pétalos de flores caen sobre tu enemigo para hacer daño extra",
+        "crafteo": "54 lingotes de oricalco"
+    }
+    ,
+    {
+        "id": 14,
+        "nombre": "Armadura de araña",
+        "defensa": 20,
+        "bonificacion": "+3 capacidad máxima de esbirros",
+        "crafteo": "36 colmillos de araña"
+    }
+    ,
+    {
+        "id": 15,
+        "nombre": "Armadura Tétrica",
+        "defensa": 27,
+        "bonificacion": "+25% de daño de los esbirros",
+        "crafteo": "750 de madera tétrica"
+    }
+]

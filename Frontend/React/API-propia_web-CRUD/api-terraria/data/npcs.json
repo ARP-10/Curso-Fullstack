@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "nombre": "Guía",
+    "rol": "Guía",
+    "informacion": "Proporciona consejos y ayuda al jugador"
+  },
+  {
+    "id": 2,
+    "nombre": "Mercader",
+    "rol": "Comerciante",
+    "informacion": "Vende varios artículos básicos"
+  },
+  {
+    "id": 3,
+    "nombre": "Enfermera",
+    "rol": "Sanadora",
+    "informacion": "Cura y elimina efectos negativos a cambio de monedas"
+  },
+  {
+    "id": 4,
+    "nombre": "Demoledor",
+    "rol": "Comerciante",
+    "informacion": "Vende explosivos"
+  },
+  {
+    "id": 5,
+    "nombre": "Dríada",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos de la naturaleza y para curar la Corrupción/Carmesí"
+  },
+  {
+    "id": 6,
+    "nombre": "Traficante de armas",
+    "rol": "Comerciante",
+    "informacion": "Vende armas de fuego y munición"
+  },
+  {
+    "id": 7,
+    "nombre": "Anciano",
+    "rol": "Guardián",
+    "informacion": "Está en la mazmorra esperando a que lo liberes de su maldición"
+  },
+  {
+    "id": 8,
+    "nombre": "Sastre",
+    "rol": "Comerciante",
+    "informacion": "Vende ropa e hilo"
+  }
+  ,
+  {
+    "id": 9,
+    "nombre": "Mecánica",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos relacionados con mecanismos"
+  },
+  {
+    "id": 10,
+    "nombre": "Duende chapucero",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos y reforja tus armas y accesorios"
+  },
+  {
+    "id": 11,
+    "nombre": "Mercader de tintes",
+    "rol": "Comerciante",
+    "informacion": "Vende tintes"
+  },
+  {
+    "id": 12,
+    "nombre": "Chica fiestera",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos para fiestas"
+  },
+  {
+    "id": 13,
+    "nombre": "Pintor",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos para pintar y pintar cuadros"
+  },
+  {
+    "id": 14,
+    "nombre": "Médico Brujo",
+    "rol": "Comerciante",
+    "informacion": "Vende la máquina para imbuir armas y fuentes de agua"
+  },
+  {
+    "id": 15,
+    "nombre": "Estilista",
+    "rol": "Comerciante",
+    "informacion": "Cambia el estilo y color del peinado y vende tintes para el pelo"
+  },
+  {
+    "id": 16,
+    "nombre": "Mercader",
+    "rol": "Comerciante",
+    "informacion": "Vende varios artículos útiles"
+  },
+  {
+    "id": 17,
+    "nombre": "Pescador",
+    "rol": "Pesca",
+    "informacion": "Ofrece misiones y te da recompensas"
+  },
+  {
+    "id": 18,
+    "nombre": "Tabernero",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos relacionados con los defensores de la mazmorra"
+  },
+  {
+    "id": 19,
+    "nombre": "Mercader Esquelético",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos de minería y yoyós"
+  },
+  {
+    "id": 20,
+    "nombre": "Zoóloga",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos relacionados con animales"
+  },
+  {
+    "id": 21,
+    "nombre": "Golfista",
+    "rol": "Comerciante",
+    "informacion": "Vende objetos relacionados con el golf"
+  }
+]
