@@ -17,7 +17,7 @@ const BossList = () => {
     }, []);
 
     return(
-        <div style={{paddingTop:'80px'}}>
+        <div style={{ paddingTop: '80px', color: '#261914' }}>
             <ul className='list-group list-group-flush'>
                 {bosses.map(boss => (
                     <li key={boss.id} className='list-group-item'>
