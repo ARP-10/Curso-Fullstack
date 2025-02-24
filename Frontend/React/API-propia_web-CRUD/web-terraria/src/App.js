@@ -9,18 +9,19 @@ import BiomaList from "./components/BiomaList";
 import BossList from "./components/BossList";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
-      <div className="App">
+      <div className="app">
         {/* Menu */}
         <NavBar />
 
         {/* Rutas */}
         <Routes>
-          {/*<Route path="/" element={<Home />} />*/}
+          <Route path="/" element={<Home />} />
           <Route path="/npc" element={<NpcList />} />
           <Route path="/armaduras" element={<ArmaduraList />} />
           <Route path="/armas" element={<ArmaList />} />
@@ -38,6 +39,6 @@ function App() {
     </div>
 
   );
-}
+};
 
 export default App;

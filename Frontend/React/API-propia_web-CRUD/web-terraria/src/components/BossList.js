@@ -17,12 +17,12 @@ const BossList = () => {
     }, []);
 
     return(
-        <div>
-            <ul>
+        <div style={{paddingTop:'80px'}}>
+            <ul className='list-group list-group-flush'>
                 {bosses.map(boss => (
-                    <li key={boss.id}>
-                        <h4>{boss.nombre}</h4>
-                        <p>{boss.invocador}</p>
+                    <li key={boss.id} className='list-group-item'>
+                        <h4 className='d-flex align-items-center justify-content-center'>{boss.nombre}</h4>
+                        <p><strong><em>Invocador: </em></strong>{boss.invocador}</p>
                         <p>{boss.descripcion}</p>
                     </li>
                 ))}

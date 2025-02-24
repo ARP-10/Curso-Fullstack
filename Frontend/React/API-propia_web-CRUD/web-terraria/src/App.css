@@ -1,11 +1,7 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.secciones {
-  text-align: left;
-}
-
-.secciones>h1 {
-  text-align: center;
+.app {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-color: #f7f5ee;
 }

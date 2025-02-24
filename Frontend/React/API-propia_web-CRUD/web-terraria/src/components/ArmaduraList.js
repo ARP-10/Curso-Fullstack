@@ -17,14 +17,14 @@ const ArmaduraList = () => {
     }, []);
 
     return(
-        <div>
-            <ul>
+        <div style={{paddingTop:'80px'}}>
+            <ul className='list-group list-group-flush'>
                 {armaduras.map(armadura => (
-                    <li key={armadura.id}>
-                        <h4>{armadura.nombre}</h4>
-                        <p>{armadura.defensa}</p>
-                        <p>{armadura.bonificacion}</p>
-                        <p>{armadura.crafteo}</p>
+                    <li key={armadura.id} className='list-group-item'>
+                        <h4 className='d-flex align-items-center justify-content-center'>{armadura.nombre}</h4>
+                        <p><strong><em>Defensa: </em></strong>{armadura.defensa}</p>
+                        <p><strong><em>Bonificación: </em></strong>{armadura.bonificacion}</p>
+                        <p><strong><em>Crafteo: </em></strong>{armadura.crafteo}</p>
                     </li>
                 ))}
             </ul>

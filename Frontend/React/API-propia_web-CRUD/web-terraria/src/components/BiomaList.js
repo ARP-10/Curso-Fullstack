@@ -17,11 +17,11 @@ const BiomaList = () => {
     }, []);
 
     return(
-        <div>
-            <ul>
+        <div style={{paddingTop:'80px'}}>
+            <ul className='list-group list-group-flush'>
                 {biomas.map(bioma => (
-                    <li key={bioma.id}>
-                        <h4>{bioma.nombre}</h4>
+                    <li key={bioma.id} className='list-group-item'>
+                        <h4 className='d-flex align-items-center justify-content-center'>{bioma.nombre}</h4>
                         <p>{bioma.descripcion}</p>
                     </li>
                 ))}

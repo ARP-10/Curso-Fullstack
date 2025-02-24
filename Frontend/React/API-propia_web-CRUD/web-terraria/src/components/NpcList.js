@@ -17,13 +17,13 @@ const NpcList = () => {
     }, []);
 
     return(
-        <div>
-            <ul>
+        <div style={{paddingTop:'80px'}}>
+            <ul className='list-group list-group-flush'>
                 {npcs.map(npc => (
-                    <li key={npc.id}>
-                        <h4>{npc.nombre}</h4>
-                        <p>{npc.rol}</p>
-                        <p>{npc.informacion}</p>
+                    <li key={npc.id} className='list-group-item'>
+                        <h4 className='d-flex align-items-center justify-content-center'>{npc.nombre}</h4>
+                        <p><strong><em>Rol:</em></strong> {npc.rol}</p>
+                        <p><strong><em>Información:</em></strong> {npc.informacion}</p>
                     </li>
                 ))}
             </ul>
