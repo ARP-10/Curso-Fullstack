@@ -21,10 +21,13 @@ const BossList = () => {
             <ul className='list-group list-group-flush'>
                 {bosses.map(boss => (
                     <li key={boss.id} className='list-group-item'>
-                        <h4 className='d-flex align-items-center justify-content-center'>{boss.nombre}</h4>
-                        <p><strong><em>Invocador: </em></strong>{boss.invocador}</p>
-                        <p>{boss.descripcion}</p>
-                    </li>
+                    <div className='d-flex align-items-center justify-content-center mb-3'>
+                        <img src={boss.imagen} alt={boss.nombre} style={{ width: '100px', marginRight: '10px' }} />
+                        <h4>{boss.nombre}</h4>
+                    </div>
+                    <p><strong><em>Invocador: </em></strong>{boss.invocador}</p>
+                    <p>{boss.descripcion}</p>
+                </li>
                 ))}
             </ul>
         </div>

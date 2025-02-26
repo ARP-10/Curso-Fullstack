@@ -1,10 +1,14 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');  // Necesario para resolver la ruta de la carpeta
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(cors());
+
+// Servir archivos estáticos desde la carpeta 'assets'
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // Ruta de prueba
 app.get('/', (req, res) => {

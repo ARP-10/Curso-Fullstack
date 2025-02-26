@@ -4,21 +4,24 @@
         "nombre": "Armadura de madera",
         "defensa": 3,
         "bonificacion": "+30% velocidad de excavación",
-        "crafteo": "75 de madera"
+        "crafteo": "75 de madera",
+        "imagen": "http://localhost:3000/assets/madera.webp"
     },
     {
         "id": 2,
         "nombre": "Armadura de cobre",
         "defensa": 6,
         "bonificacion": "+2 de defensa",
-        "crafteo": "60 lingotes de Cobre"
+        "crafteo": "60 lingotes de Cobre",
+        "imagen": "http://localhost:3000/assets/Cobre.webp"
     },
     {
         "id": 3,
         "nombre": "Armadura de calabaza",
         "defensa": 7,
         "bonificacion": "+10% de daño",
-        "crafteo":"75 calabazas"
+        "crafteo":"75 calabazas",
+        "imagen": "http://localhost:3000/assets/Calabaza.webp"
     }
     ,
     {
@@ -26,7 +29,8 @@
         "nombre": "Armadura de Tsungsteno",
         "defensa": 15,
         "bonificacion": "+3 de defensa",
-        "crafteo": "75 lingotes de Tsungsteno"
+        "crafteo": "75 lingotes de Tsungsteno",
+        "imagen": "http://localhost:3000/assets/Tsungsteno.webp"
     }
     ,
     {
@@ -34,7 +38,8 @@
         "nombre": "Armadura Ninja",
         "defensa": 9,
         "bonificacion": "+15% de daño en armas arrojadizas",
-        "crafteo": "Recompensa por derrotar al Rey Slime"
+        "crafteo": "Recompensa por derrotar al Rey Slime",
+        "imagen": "http://localhost:3000/assets/Ninja.webp"
     }
     ,
     {
@@ -42,7 +47,8 @@
         "nombre": "Armadura de Abeja",
         "defensa": 13,
         "bonificacion": "+10% de daño de los esbirros",
-        "crafteo": "30 de cera de abeja"
+        "crafteo": "30 de cera de abeja",
+        "imagen": "http://localhost:3000/assets/ArmaduraAbeja.webp"
     }
     ,
     {
@@ -50,7 +56,8 @@
         "nombre": "Armadura antigua de Cobalto",
         "defensa": 17,
         "bonificacion": "+80 de maná",
-        "crafteo": "Recompensa rara tras derrotar al Devorador de Hombres"
+        "crafteo": "Recompensa rara tras derrotar al Devorador de Hombres",
+        "imagen": "http://localhost:3000/assets/Cobalto.webp"
     }
     ,
     {
@@ -58,7 +65,8 @@
         "nombre": "Armadura de las sombras",
         "defensa": 19,
         "bonificacion": "+21% de velocidad de ataque",
-        "crafteo": "60 lingotes endemoniados y 45 escamas de las sombras"
+        "crafteo": "60 lingotes endemoniados y 45 escamas de las sombras",
+        "imagen": "http://localhost:3000/assets/Sombras.webp"
     }
     ,
     {
@@ -66,7 +74,8 @@
         "nombre": "Armadura carmesí",
         "defensa": 19,
         "bonificacion": "Gran incremento en la regeneración de vida",
-        "crafteo": "60 lingotes carmesí y 45 muestras de tejido"
+        "crafteo": "60 lingotes carmesí y 45 muestras de tejido",
+        "imagen": "http://localhost:3000/assets/ArmaduraCarmesi.webp"
     }
     ,
     {
@@ -74,7 +83,8 @@
         "nombre": "Armadura fundida",
         "defensa": 25,
         "bonificacion": "+17% de daño en el cuerpo a cuerpo",
-        "crafteo":"45 lingotes de piedra infernal"
+        "crafteo":"45 lingotes de piedra infernal",
+        "imagen": "http://localhost:3000/assets/Fundida.webp"
     }
     ,
     {
@@ -82,7 +92,8 @@
         "nombre": "Armadura de Cobalto",
         "defensa": 26,
         "bonificacion": "-14% de coste de maná",
-        "crafteo": "45 lingotes de cobalto"
+        "crafteo": "45 lingotes de cobalto",
+        "imagen": "http://localhost:3000/assets/Cobalto.webp"
     }
     ,
     {
@@ -90,7 +101,8 @@
         "nombre": "Armadura de Mithril",
         "defensa": 37,
         "bonificacion": "+10% de probabilidad de araque crítico cuerpo a cuerpo",
-        "crafteo": "45 lingotes de mithril"
+        "crafteo": "45 lingotes de mithril",
+        "imagen": "http://localhost:3000/assets/Mithril.webp"
     }
     ,
     {
@@ -98,7 +110,8 @@
         "nombre": "Armadura de Oricalco",
         "defensa": 42,
         "bonificacion": "Pétalos de flores caen sobre tu enemigo para hacer daño extra",
-        "crafteo": "54 lingotes de oricalco"
+        "crafteo": "54 lingotes de oricalco",
+        "imagen": "http://localhost:3000/assets/Oricalco.webp"
     }
     ,
     {
@@ -106,7 +119,8 @@
         "nombre": "Armadura de araña",
         "defensa": 20,
         "bonificacion": "+3 capacidad máxima de esbirros",
-        "crafteo": "36 colmillos de araña"
+        "crafteo": "36 colmillos de araña",
+        "imagen": "http://localhost:3000/assets/arana.webp"
     }
     ,
     {
@@ -114,6 +128,7 @@
         "nombre": "Armadura Tétrica",
         "defensa": 27,
         "bonificacion": "+25% de daño de los esbirros",
-        "crafteo": "750 de madera tétrica"
+        "crafteo": "750 de madera tétrica",
+        "imagen": "http://localhost:3000/assets/Tetrica.webp"
     }
 ]

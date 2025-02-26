@@ -21,7 +21,10 @@ const ArmaList = () => {
             <ul className='list-group list-group-flush'>
                 {armas.map(arma => (
                     <li key={arma.id} className='list-group-item'>
-                        <h4 className='d-flex align-items-center justify-content-center'>{arma.nombre}</h4>
+                        <div className='d-flex align-items-center justify-content-center mb-3'>
+                            <img src={arma.imagen} alt={arma.nombre} style={{ width: '50px', marginRight: '10px' }} />
+                            <h4 className='d-flex align-items-center justify-content-center'>{arma.nombre}</h4>
+                        </div>
                         <p><strong><em>Clase: </em></strong>{arma.clase}</p>
                         <p><strong><em>Tipo: </em></strong>{arma.tipo}</p>
                         <p><strong><em>Daño: </em></strong>{arma.danio}</p>

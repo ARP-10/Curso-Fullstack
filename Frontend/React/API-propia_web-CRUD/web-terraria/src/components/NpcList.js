@@ -21,7 +21,10 @@ const NpcList = () => {
             <ul className='list-group list-group-flush'>
                 {npcs.map(npc => (
                     <li key={npc.id} className='list-group-item'>
-                        <h4 className='d-flex align-items-center justify-content-center'>{npc.nombre}</h4>
+                        <div className='d-flex align-items-center justify-content-center mb-3'>
+                            <img src={npc.imagen} alt={npc.nombre} style={{ width: '30px', marginRight: '10px' }} />
+                            <h4 className='d-flex align-items-center justify-content-center'>{npc.nombre}</h4>
+                        </div>
                         <p><strong><em>Rol:</em></strong> {npc.rol}</p>
                         <p><strong><em>Información:</em></strong> {npc.informacion}</p>
                     </li>

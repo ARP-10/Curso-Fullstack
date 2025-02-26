@@ -2,56 +2,61 @@
     {
         "id": 1,
         "nombre": "Bosque",
-        "descripcion": "El bosque es el bioma principal en el cual siempre aparece el jugador al comenzar un mundo. Está conformado por tierra y césped, con plantas y árboles. Al ser el bioma principal, es el menos peligroso. Debajo de este se encuentra el subsuelo."
+        "descripcion": "El bosque es el bioma principal en el cual siempre aparece el jugador al comenzar un mundo. Está conformado por tierra y césped, con plantas y árboles. Al ser el bioma principal, es el menos peligroso. Debajo de este se encuentra el subsuelo.",
+        "imagen": "http://localhost:3000/assets/Bosque.webp"
     },
     {
         "id": 2,
         "nombre": "Desierto",
-        "descripcion": "El desierto es un bioma conformado principalmente de arena y cactus. Suele aparecer de un lado del bosque central. Debajo de este se encuentra el desierto subterráneo."
+        "descripcion": "El desierto es un bioma conformado principalmente de arena y cactus. Suele aparecer de un lado del bosque central. Debajo de este se encuentra el desierto subterráneo.",
+        "imagen": "http://localhost:3000/assets/Desierto.webp"
     },
     {
         "id": 3,
         "nombre": "Tundra",
-        "descripcion": "La tundra es un bioma de nieve que se encuentra cerca del bosque central, del lado de la mazmorra. Se compone de bloques de nieve, hielo y árboles boreales. Se puede encontrar la planta Espinatemblor y en vez de llover, nieva. Debajo de este se encuentra la tundra subterránea."
+        "descripcion": "La tundra es un bioma de nieve que se encuentra cerca del bosque central, del lado de la mazmorra. Se compone de bloques de nieve, hielo y árboles boreales. Se puede encontrar la planta Espinatemblor y en vez de llover, nieva. Debajo de este se encuentra la tundra subterránea.",
+        "imagen": "http://localhost:3000/assets/Tundra.webp"
     },
     {
         "id": 4,
         "nombre": "Corrupción",
-        "descripcion": "La corrupción es una de las posibles maldades que puede aparecer en el mundo. Es una versión más fácil pero débil del carmesí. Es un bioma peligroso y que se expande constantemente, infectando el césped, la piedra, arena y el lodo. En las cuevas se pueden encontrar orbes sombríos y altares demoníacos. También puede ser enfrentado el devoramundos."
+        "descripcion": "La corrupción es una de las posibles maldades que puede aparecer en el mundo. Es una versión más fácil pero débil del carmesí. Es un bioma peligroso y que se expande constantemente, infectando el césped, la piedra, arena y el lodo. En las cuevas se pueden encontrar orbes sombríos y altares demoníacos. También puede ser enfrentado el devoramundos.",
+        "imagen": "http://localhost:3000/assets/Corrupcion.webp"
     },
     {
         "id": 5,
         "nombre": "Carmesí",
-        "descripcion": "El carmesí es una de las posibles maldades que puede aparecer en el mundo. Es una versión más fuerte pero difícil de la corrupción. Es un bioma peligroso y que se expande constantemente, infectando el césped, la piedra, arena y el lodo. En las cuevas se pueden encontrar corazones carmesíes y altares carmesíes. En este bioma se puede invocar al Cerebro de Cthulhu"
+        "descripcion": "El carmesí es una de las posibles maldades que puede aparecer en el mundo. Es una versión más fuerte pero difícil de la corrupción. Es un bioma peligroso y que se expande constantemente, infectando el césped, la piedra, arena y el lodo. En las cuevas se pueden encontrar corazones carmesíes y altares carmesíes. En este bioma se puede invocar al Cerebro de Cthulhu",
+        "imagen": "http://localhost:3000/assets/Carmesi.webp"
     },
     {
         "id": 6,
         "nombre": "Selva",
-        "descripcion": "La selva es un bioma que se encuentra cerca del borde del mundo y del lado contrario a la mazmorra. Está conformado por lodo, césped selvático y árboles de caoba. Debajo se encuentra la selva subterránea.Los enemigos son bastante fuertes, se recomienda ser cauteloso."
+        "descripcion": "La selva es un bioma que se encuentra cerca del borde del mundo y del lado contrario a la mazmorra. Está conformado por lodo, césped selvático y árboles de caoba. Debajo se encuentra la selva subterránea.Los enemigos son bastante fuertes, se recomienda ser cauteloso.",
+        "imagen": "http://localhost:3000/assets/Selva.webp"
     },
     {
         "id": 7,
         "nombre": "Mazmorra",
-        "descripcion": "La mazmorra es un bioma que se encuentra cerca del borde del mundo y del lado contrario a la selva. Se conforma por ladrillos de mazmorra azules, rosas o verdes. En él se encuentra el anciano, con el cual se puede enfrentar a esqueletrón y luego acceder a la parte subterránea, donde hay cofres dorados cerrados con llave, cofres de biomas y monstruos peligrosos."
+        "descripcion": "La mazmorra es un bioma que se encuentra cerca del borde del mundo y del lado contrario a la selva. Se conforma por ladrillos de mazmorra azules, rosas o verdes. En él se encuentra el anciano, con el cual se puede enfrentar a esqueletrón y luego acceder a la parte subterránea, donde hay cofres dorados cerrados con llave, cofres de biomas y monstruos peligrosos.",
+        "imagen": "http://localhost:3000/assets/Mazmorra.webp"
     },
     {
         "id": 8,
         "nombre": "Bioma de champiñones",
-        "descripcion": "El bioma de champiñones superficial es un bioma artificial que puede ser creado con 200 bloques de lodo y semillas de césped de champiñón o con el Clentaminator. En este aparecen monstruos del modo difícil (sin importar el modo en que realmente está) y que puede provocar que el NPC Trufa se genere y se mude al bioma."
+        "descripcion": "El bioma de champiñones superficial es un bioma artificial que puede ser creado con 200 bloques de lodo y semillas de césped de champiñón o con el Clentaminator. En este aparecen monstruos del modo difícil (sin importar el modo en que realmente está) y que puede provocar que el NPC Trufa se genere y se mude al bioma.",
+        "imagen": "http://localhost:3000/assets/Champis.webp"
     },
     {
         "id": 9,
         "nombre": "Océano",
-        "descripcion": "Los océanos son grandes masas de agua que aparecen en los costados del mundo. Están conformados por Arena, Corales, Estrellas de mar y Conchas. Suelen tener cofres que contienen objetos útiles, pero difíciles de obtener, ya que el jugador se puede ahogar fácilmente y los monstruos del bioma son peligrosos."
+        "descripcion": "Los océanos son grandes masas de agua que aparecen en los costados del mundo. Están conformados por Arena, Corales, Estrellas de mar y Conchas. Suelen tener cofres que contienen objetos útiles, pero difíciles de obtener, ya que el jugador se puede ahogar fácilmente y los monstruos del bioma son peligrosos.",
+        "imagen": "http://localhost:3000/assets/Oceano.webp"
     },
     {
         "id": 10,
-        "nombre": "Epacio exterior",
-        "descripcion": "El espacio exterior o cielo es un bioma que se encuentra en la parte superior del mundo. Aquí se pueden encontrar las islas flotantes, que contienen casas con cofres o bien un lago."
-    },
-    {
-        "id": 11,
         "nombre": "Inframundo",
-        "descripcion": "El inframundo o infierno es el bioma que se extiende por toda la parte inferior del mundo. Esta conformado principalmente por ceniza, piedra infernal y mucha lava. En él se pueden encontrar casas en ruinas hechas de ladrillos de obsidiana y de piedra infernal, con varios muebles de obsidiana en el interior. Otras cosas destacadas son la forja infernal, que suele aparecer en estos edificios, y los cofres de las sombras, que pueden ser abiertos con una llave de las sombras."
+        "descripcion": "El inframundo o infierno es el bioma que se extiende por toda la parte inferior del mundo. Esta conformado principalmente por ceniza, piedra infernal y mucha lava. En él se pueden encontrar casas en ruinas hechas de ladrillos de obsidiana y de piedra infernal, con varios muebles de obsidiana en el interior. Otras cosas destacadas son la forja infernal, que suele aparecer en estos edificios, y los cofres de las sombras, que pueden ser abiertos con una llave de las sombras.",
+        "imagen": "http://localhost:3000/assets/Inframundo.webp"
     }
 ]

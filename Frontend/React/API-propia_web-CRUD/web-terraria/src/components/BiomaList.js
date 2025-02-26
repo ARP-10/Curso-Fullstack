@@ -21,9 +21,12 @@ const BiomaList = () => {
             <ul className='list-group list-group-flush'>
                 {biomas.map(bioma => (
                     <li key={bioma.id} className='list-group-item'>
-                        <h4 className='d-flex align-items-center justify-content-center'>{bioma.nombre}</h4>
-                        <p>{bioma.descripcion}</p>
-                    </li>
+                    <div className='d-flex flex-column align-items-center mb-3'>
+                    <img src={bioma.imagen} alt={bioma.nombre} style={{ width: '200px', marginTop: '10px' }} />
+                    <h4 className='mt-3'>{bioma.nombre}</h4>
+                    </div>
+                    <p>{bioma.descripcion}</p>
+                </li>
                 ))}
             </ul>
         </div>

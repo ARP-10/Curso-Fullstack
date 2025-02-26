@@ -3,48 +3,56 @@
         "id": 1,
         "nombre": "Rey Slime",
         "invocador": "Corona de Slime",
-        "descripcion": "Es el jefe más débil del juego y este puede aparecer ya sea invocándolo con la corona de slime o durante la lluvia de slimes luego de matar a 75 de slimes (150 la primera vez) o también puede ser con una baja probabilidad durante el día. Aparece en la superficie a cualquier hora."
+        "descripcion": "Es el jefe más débil del juego y este puede aparecer ya sea invocándolo con la corona de slime o durante la lluvia de slimes luego de matar a 75 de slimes (150 la primera vez) o también puede ser con una baja probabilidad durante el día. Aparece en la superficie a cualquier hora.",
+        "imagen": "http://localhost:3000/assets/King_Slime.webp"
     },
     {
         "id": 2,
         "nombre": "Ojo de Cthulhu",
         "invocador": "Ojo de aspecto sospechoso",
-        "descripcion": "El Ojo de Cthulhu puede aparecer naturalmente si el jugador tiene mas de 200 de vida, mas de 2 NPCs y 10 de defensa. Su segunda forma se activa al llegar a la mitad de su vida. Su patrón se basa en embestirte e invocar sirvientes de Cthulhu, una versión más débil de los ojos demoníacos. En su segunda forma embestirá con más frecuencia. En modo experto tiene una fase más al tener poca vida, la cual ataca al jugador con rápidas embestidas consecutivas."
+        "descripcion": "El Ojo de Cthulhu puede aparecer naturalmente si el jugador tiene mas de 200 de vida, mas de 2 NPCs y 10 de defensa. Su segunda forma se activa al llegar a la mitad de su vida. Su patrón se basa en embestirte e invocar sirvientes de Cthulhu, una versión más débil de los ojos demoníacos. En su segunda forma embestirá con más frecuencia. En modo experto tiene una fase más al tener poca vida, la cual ataca al jugador con rápidas embestidas consecutivas.",
+        "imagen": "http://localhost:3000/assets/Ojo.webp"
     },
     {
         "id": 3,
         "nombre": "Devoramundos",
         "invocador": "Cebo de gusanos o rompiendo tres orbes sombríos",
-        "descripcion": "Es el jefe que pertenece a la corrupción y reemplaza al Cerebro de Cthulhu. Se puede invocar de dos formas: destruyendo tres orbes sombríos de la corrupción o usando un cebo de gusanos. Su patrón de ataques esta conformado por varios segmentos de devoradores, consiste en se meterse bajo tierra y salir para atacar al jugador, como un devorador"
+        "descripcion": "Es el jefe que pertenece a la corrupción y reemplaza al Cerebro de Cthulhu. Se puede invocar de dos formas: destruyendo tres orbes sombríos de la corrupción o usando un cebo de gusanos. Su patrón de ataques esta conformado por varios segmentos de devoradores, consiste en se meterse bajo tierra y salir para atacar al jugador, como un devorador",
+        "imagen": "http://localhost:3000/assets/Devoramundos.webp"
     },
     {
         "id": 4,
         "nombre": "Cerebro de Cthulhu",
         "invocador": "Espina dorsal sangrienta o rompiendo tres corazones carmesí",
-        "descripcion": "Es el jefe que pertenece al carmesí y reemplaza al Devoramundos. Se puede invocar de dos formas: destruyendo tres corazones carmesí del carmesí o usando una espina dorsal sangrienta. Su patrón de ataques en su primera forma recibe daño e invocará un total de 20 - 30 criaturas los cuales giran a su alrededor, y una vez que se derrotan a todas las criaturas, podrá recibir daño."
+        "descripcion": "Es el jefe que pertenece al carmesí y reemplaza al Devoramundos. Se puede invocar de dos formas: destruyendo tres corazones carmesí del carmesí o usando una espina dorsal sangrienta. Su patrón de ataques en su primera forma recibe daño e invocará un total de 20 - 30 criaturas los cuales giran a su alrededor, y una vez que se derrotan a todas las criaturas, podrá recibir daño.",
+        "imagen": "http://localhost:3000/assets/Cerebro.webp"
     },
     {
         "id": 5,
         "nombre": "Ciervíclope",
         "invocador": "Consumiendo un Trasto de ciervo en la tundra",
-        "descripcion": "Se puede encontrar de forma natural en la Tundra durante una Ventisca o invocado manualmente con un Trasto de ciervo. Es parte del Crossover con Don't Starve Together."
+        "descripcion": "Se puede encontrar de forma natural en la Tundra durante una Ventisca o invocado manualmente con un Trasto de ciervo. Es parte del Crossover con Don't Starve Together.",
+        "imagen": "http://localhost:3000/assets/Cerviclope.webp"
     },
     {
         "id": 6,
         "nombre": "Esqueletrón",
         "invocador": "Muñeco de vudú del buhonero",
-        "descripcion": "Es necesario vencerlo para entrar a la mazmorra. Al intentar entrar sin derrotarlo, aparecerá el Guardián de la mazmorra y te matará de un golpe. Tiene dos patrones: atacar con las manos y dejar la cabeza flotando y girar la cabeza."
+        "descripcion": "Es necesario vencerlo para entrar a la mazmorra. Al intentar entrar sin derrotarlo, aparecerá el Guardián de la mazmorra y te matará de un golpe. Tiene dos patrones: atacar con las manos y dejar la cabeza flotando y girar la cabeza.",
+        "imagen": "http://localhost:3000/assets/Esqueletron.webp"
     },
     {
         "id": 7,
         "nombre": "Abeja reina",
         "invocador": "Abejaminación",
-        "descripcion": "Tiene tres ataques: se alinea con el jugador y lo embiste de ambos lados (va y vuelve), invoca abejas que atacan al jugador y disparar varios proyectiles venenosos."
+        "descripcion": "Tiene tres ataques: se alinea con el jugador y lo embiste de ambos lados (va y vuelve), invoca abejas que atacan al jugador y disparar varios proyectiles venenosos.",
+        "imagen": "http://localhost:3000/assets/Abeja.webp"
     },
     {
         "id": 8,
         "nombre": "Muro de carne",
         "invocador": "Lanzando un Muñeco vudú del guía a la lava",
-        "descripcion": "Es considerado por muchos el jefe mas difícil del modo normal y no se puede escapar de él hasta que uno de los dos muera, lanzando rayos por los ojos e invocando famélicos."
+        "descripcion": "Es considerado por muchos el jefe mas difícil del modo normal y no se puede escapar de él hasta que uno de los dos muera, lanzando rayos por los ojos e invocando famélicos.",
+        "imagen": "http://localhost:3000/assets/Muro.webp"
     }
 ]
