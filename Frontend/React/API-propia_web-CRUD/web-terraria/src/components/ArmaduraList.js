@@ -22,7 +22,7 @@ const ArmaduraList = () => {
                 {armaduras.map(armadura => (
                     <li key={armadura.id} className='list-group-item'>
                         <div className='d-flex align-items-center justify-content-center mb-3'>
-                            <img src={armadura.imagen} alt={armadura.nombre} style={{ width: '70px', marginRight: '10px' }} />
+                            <img src={armadura.imagen} alt={armadura.nombre} style={{ width: '40px', marginRight: '10px' }} />
                             <h4 className='d-flex align-items-center justify-content-center'>{armadura.nombre}</h4>
                         </div>
                         <p><strong><em>Defensa: </em></strong>{armadura.defensa}</p>

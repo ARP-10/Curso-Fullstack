@@ -1,6 +1,7 @@
 footer {
     color: #BBCBF1;
     background-color: #261914;
+    box-shadow: 0 -5px 8px rgba(0, 0, 0, 0.2);
 }
   
 p {

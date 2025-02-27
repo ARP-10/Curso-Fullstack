@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 import logo from "../assets/logo.png";
 
@@ -16,10 +16,21 @@ function NavBar() {
 
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
-      <div className="container-fluid">
+      <div className="container-fluid d-flex justify-content-between align-items-center">
         <Link className="navbar-brand" to="/" onClick={closeMenu}>
-          <img className='logoImage' src={logo} alt='logo'></img>
+          <img className="logoImage" src={logo} alt="logo"></img>
         </Link>
+        <form className="d-flex" role="search">
+          <input
+            className="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+          <button className="btn btn-outline-success" type="submit">
+            Buscar
+          </button>
+        </form>
         <button
           className="navbar-toggler"
           type="button"
@@ -32,10 +43,18 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
+        <div
+          className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
+          id="navbarNav"
+        >
           <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/" onClick={closeMenu}>
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                to="/"
+                onClick={closeMenu}
+              >
                 Home
               </Link>
             </li>

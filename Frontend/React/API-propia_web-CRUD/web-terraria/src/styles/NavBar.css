@@ -4,36 +4,38 @@
 }
 
 .navbar {
-    background-color: #7AA2ED; /* Color de fondo del navbar */
-    color: #060d14; /* Color del texto */
-    padding: 10px 20px; /* Añadir padding para mejor espaciado */
+    background-color: #7AA2ED; 
+    color: #060d14; 
+    padding: 10px 20px; 
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
 
 .navbar-toggler {
     border: none;
-    background-color: #7AA2ED; /* Color del botón de hamburguesa */
-    border-radius: 5px; /* Añadir borde redondeado */
-    padding: 5px 10px; /* Añadir padding */
-    transition: background-color 0.3s ease-in-out; /* Añadir transición */
+    background-color: #7AA2ED; 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in-out; 
 }
 
 .navbar-toggler:hover {
-    background-color: #A9C4EB; /* Hover del botón de hamburguesa */
+    background-color: #A9C4EB; 
 }
 
 .nav-link {
-    padding: 8px 16px; /* Añadir padding para mejorar la apariencia */
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Añadir transición de color y fondo */
-    border-radius: 5px; /* Añadir borde redondeado */
+    padding: 8px 16px; 
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+    border-radius: 5px; 
 }
 
 .nav-link:hover {
-    color: #34495E; /* Hover de los ítems del menú */
-    background-color: rgba(255, 255, 255, 0.2); /* Añadir fondo semitransparente al hover */
+    color: #34495E; 
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 .navbar-nav {
-    margin-left: auto; /* Empuja el menú a la derecha */
-    text-align: right; /* Centra el contenido dentro del menú */
+    margin-left: auto; 
+    text-align: right; 
 }
 
