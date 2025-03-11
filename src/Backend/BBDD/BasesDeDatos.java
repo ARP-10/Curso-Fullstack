@@ -28,10 +28,7 @@ public class BasesDeDatos {
 
     // TODO: Hacer un menú a través del cual hagamos un CRUD
 
-    // Cerrar recursos
-    rs.close();
-    pst.close();
-    con.close();
+
 
     }
 }
