@@ -1,12 +1,13 @@
-package Backend.BBDD;
+package backend.bbdd;
 
 import java.sql.*;
+import java.util.Scanner;
 
 public class BasesDeDatos {
     public static void main(String[] args) throws SQLException {
     String url = "jdbc:mysql://localhost:3306/cine_prueba";
     String user = "root";
-    String pass = "admin";
+    String pass = "admin"; 
 
     Scanner sc = new Scanner(System.in);
 
@@ -14,17 +15,18 @@ public class BasesDeDatos {
 
     Connection con = DriverManager.getConnection(url, user, pass);
 
-    // TODO: Hacer un menú a través del cual hagamos un CRUD
-    while(true) {
-        System.out.println("Escoge una opcion");
-        int opcion = sc.nextInt();
-        sc.nextLine();
+    boolean salir = false;
 
-        System.out.println("1. Listar la tabla peliculas");
+    while(!salir) {
+        System.out.println("Escoge una opción");
+        System.out.println("1. Listar la tabla películas");
         System.out.println("2. Actualizar una fila");
         System.out.println("3. Crear una fila");
         System.out.println("4. Eliminar una fila");
-        System.out.println("5. Salir")
+        System.out.println("5. Salir");
+
+        int opcion = sc.nextInt();
+        sc.nextLine();
 
 
         switch(opcion) {
@@ -50,7 +52,7 @@ public class BasesDeDatos {
                 int idActualizar = sc.nextInt();
                 sc.nextLine();
                 System.out.println("Introduce el titulo: ");
-                String nuevoTitulo - sc.nextLine();
+                String nuevoTitulo = sc.nextLine();
                 String sqlUpdate = "UPDATE peliculas SET titulo =? WHERE id =?";
                 PreparedStatement pst2 = con.prepareStatement(sqlUpdate);
                 pst2.setString(1, nuevoTitulo);
@@ -77,7 +79,7 @@ public class BasesDeDatos {
                 break;
 
             case 4: 
-            // Eliminar
+                // Eliminar
                 System.out.println("Introduce el ID de la película a eliminar:");
                 int idEliminar = sc.nextInt();
                 String sqlDelete = "DELETE FROM peliculas WHERE id = ?";
@@ -90,18 +92,13 @@ public class BasesDeDatos {
             case 5: 
                 // Salir
                 System.out.println("Saliendo del programa...");
-                // Cerrar recursos
-                rs.close();
-                pst.close();
-                con.close();
-                sc.close();
+                salir = true;
                 break;
 
             default:
-                System.out.println("Opcion no valida");
+                System.out.println("Opción no valida");
         }
     }
-
 
 
     }
